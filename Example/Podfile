@@ -1,0 +1,6 @@
+use_frameworks!
+target 'HHProtocolManager_Tests' do
+  pod 'HHProtocolManager', :path => '../'
+  
+  
+end
