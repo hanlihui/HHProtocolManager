@@ -16,9 +16,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		097808FB512A3053734F564F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		13BC09E5B2F14FFEDFFAFC04 /* HHProtocolManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = HHProtocolManager.podspec; path = ../HHProtocolManager.podspec; sourceTree = "<group>"; };
-		14448A6AE5593F8A8EC8139F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		097808FB512A3053734F564F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		13BC09E5B2F14FFEDFFAFC04 /* HHProtocolManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HHProtocolManager.podspec; path = ../HHProtocolManager.podspec; sourceTree = "<group>"; };
+		14448A6AE5593F8A8EC8139F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		15DC7B4B34AFCE53893900B2 /* Pods_HHProtocolManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HHProtocolManager_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -151,6 +151,7 @@
 				ORGANIZATIONNAME = hanlihui;
 				TargetAttributes = {
 					6003F5AD195388D20070C39A = {
+						DevelopmentTeam = G3SHQ4ZK32;
 						TestTargetID = 6003F589195388D20070C39A;
 					};
 				};
@@ -338,6 +339,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 63BA76492637DFA6D04EBCFE /* Pods-HHProtocolManager_Tests.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				DEVELOPMENT_TEAM = G3SHQ4ZK32;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -361,6 +364,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 89D5453B6FABF180E17A32F9 /* Pods-HHProtocolManager_Tests.release.xcconfig */;
 			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				DEVELOPMENT_TEAM = G3SHQ4ZK32;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
