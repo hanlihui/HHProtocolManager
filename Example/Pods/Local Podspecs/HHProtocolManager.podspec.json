@@ -1,0 +1,22 @@
+{
+  "name": "HHProtocolManager",
+  "version": "0.1.0",
+  "summary": "A short description of HHProtocolManager.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/hanlihui/HHProtocolManager",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "hanlihui": "lihui.han@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/hanlihui/HHProtocolManager.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "HHProtocolManager/Classes/**/*"
+}

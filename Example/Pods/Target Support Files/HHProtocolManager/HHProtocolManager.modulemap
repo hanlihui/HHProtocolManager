@@ -1,0 +1,6 @@
+framework module HHProtocolManager {
+  umbrella header "HHProtocolManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

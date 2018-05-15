@@ -1,0 +1,16 @@
+PODS:
+  - HHProtocolManager (0.1.0)
+
+DEPENDENCIES:
+  - HHProtocolManager (from `../`)
+
+EXTERNAL SOURCES:
+  HHProtocolManager:
+    :path: ../
+
+SPEC CHECKSUMS:
+  HHProtocolManager: bb93de4ebada7581e59033b1dc38232436a91af5
+
+PODFILE CHECKSUM: bfc6b76faa48a31fd0dae65bb6b957aa42a4f817
+
+COCOAPODS: 1.4.0

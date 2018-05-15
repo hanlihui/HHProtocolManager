@@ -1,0 +1,6 @@
+framework module Pods_HHProtocolManager_Tests {
+  umbrella header "Pods-HHProtocolManager_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
