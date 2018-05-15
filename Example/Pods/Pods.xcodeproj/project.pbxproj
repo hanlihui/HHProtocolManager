@@ -10,7 +10,7 @@
 		04335A9C6A9A504D60B7D9F558026DA4 /* Pods-HHProtocolManager_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 06AA4171E078ABCC259220FE58904E26 /* Pods-HHProtocolManager_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6648AC6E6FEFBD968D2908F4C1C000FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		72A2FBF343539E7887AB3F559B63201E /* HHProtocolManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D96181F6294A40CE74910EE50BC58EF0 /* HHProtocolManager-dummy.m */; };
-		7DE5812120AA8C2C00821E33 /* HHProtocolManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DE5811F20AA8C2C00821E33 /* HHProtocolManager.h */; };
+		7DE5812120AA8C2C00821E33 /* HHProtocolManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DE5811F20AA8C2C00821E33 /* HHProtocolManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7DE5812220AA8C2C00821E33 /* HHProtocolManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DE5812020AA8C2C00821E33 /* HHProtocolManager.m */; };
 		819A8B68026BED2150C1621DC07927FF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		D288F32323C434CFC513DD40CFA34581 /* Pods-HHProtocolManager_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5039D4C01181912E03C4A500EB608B5C /* Pods-HHProtocolManager_Tests-dummy.m */; };
